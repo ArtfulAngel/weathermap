@@ -1,0 +1,41 @@
+.main {
+    justify-content: center;
+
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+
+    &__container {
+        margin: 30px;
+    }
+    &__favorites {
+        display: flex;
+        justify-content: left;
+        background: aliceblue;
+        margin: 10px 0;
+        padding: 10px;
+        width: 250px;
+        height: 50%;
+        float: left;
+        overflow-y: auto;
+    }
+
+    &__search-block {
+        display: flex;
+        height: 70px;
+    }
+
+    &__list {
+        height: 85%;
+        overflow-y: auto;
+    }
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
